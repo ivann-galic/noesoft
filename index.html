@@ -8,25 +8,24 @@
 </head>
 <body>
     <header>
-        <div class="row">
-        <nav class="navbar col-12">
-                <div class="col-5 offset-1">
-                    <a class="navbar-brand" href="#">
-                        <img src="img/logo2.png" alt="logo">
-                    </a>
-                </div>
-                <div class="col-5 text-center">
-                    <a class="job_link" href="#">
-                        <p class="job_title">Titre de l'annonce</p>
-                    </a>
-                </div>
-        </nav>
-        </div>
+                <nav class="navbar">
+                    <div class="col-5 offset-1" style="padding: 0">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo2.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-5 text-right" style="padding: 0">
+                        <a class="job_link" href="#">
+                            <p class="job_title">Alternance Développeur.se DJANGO</p>
+                        </a>
+                    </div>
+                    <div class="col-1" style="padding: 0"></div>
+                </nav>
     </header>
 
     <div class="container-fluid">
         <div class="row">
-            <section class="annonce col-md-5 offset-md-1">
+            <section class="annonce col-6 offset-1">
                 <div class="text col-11">
                     <h1>Alternance Développeur.se DJANGO</h1>
                     <p>NOÉSOFT  est  une  jeune  société de  services en  pleine  croissance.  Nous  développons  des applications  web  et  mobiles
@@ -54,8 +53,29 @@
                 </div>
 
             </section>
-            <section class="postuler col-md-5">
-                <p>test2</p>
+            <section class="postuler col-4">
+                <h1>Ta candidature</h1>
+                <div class="row">
+                    <div class="form_titles col-3 offset-1 text-right">
+                        <p>Prénom</p>
+                        <p>Nom</p>
+                        <p>Email</p>
+                        <p>Téléphone</p>
+                        <p>CV</p>
+                        <p>Message</p>
+                    </div>
+                    <div class="form_candidate col-6">
+                        <form>
+                            <input type="text" id="name" class="form_inputs" name="name" required>
+                            <input type="text" id="lastname" class="form_inputs" name="lastname" required>
+                            <input type="email" id="mail" class="form_inputs" name="mail" required>
+                            <input type="tel" id="phone" class="form_inputs" name="phone" required>
+                            <input type="file" id="load_btn" name="file">
+                            <textarea id="message" class="form_inputs" name="message" rows="5" required></textarea>
+                            <input id="submit_btn" type="submit" value="POSTULER">
+                        </form>
+                    </div>
+                </div>
             </section>
         </div>
 

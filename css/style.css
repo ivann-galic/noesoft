@@ -16,15 +16,11 @@
 }
 
 .navbar-brand img{
-    height: 50px;
+    height: 55px;
 }
 
 .container-fluid {
     margin-top: 2%;
-}
-
-.annonce {
-    background-color: whitesmoke;
 }
 
 .annonce h1 {
@@ -41,7 +37,40 @@
 .annonce p:nth-child(4){
     margin: 0;
 }
+
 .postuler {
-    background-color: #1e7e34;
+    background-color: #e5f3f5;
 }
 
+.postuler h1 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8%;
+    text-transform: uppercase;
+    color: #2a8a9e;
+    margin-top: 4%;
+}
+
+.form_titles p {
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.form_inputs {
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+#load_btn {
+    margin-bottom: 16px;
+}
+
+#submit_btn {
+    width: 150px;
+    padding: 3px;
+    color: #ffffff;
+    background-color: #2a8a9e;
+    border: none;
+    font-weight: bold;
+}
